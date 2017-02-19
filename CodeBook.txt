@@ -1,6 +1,28 @@
-# Code Book
+########################################################
+#
+# Code Book for Program Assigment Tidy.txt outcome file
+#
+########################################################
 
-Subject: Subject of the observation
-Activity_Index: Index of the activity
-Rest of variables: Mean of the diferent variables by Subject and Activity as requested
+The file includes the mean of the the different variables containing 'mean' or 'std' in the original observations data sets X_train and X_test.txt files for each available pair of subject and activity. Therefore 180 lines should showup (30 subjects x 6 activities). 81 columns present. 2 for the subject and activity information fields and resto for the summarized means.
+
+
+	Subject:  	Subject of the observation. Numeric, range [1.30]
+		  	Represents each individual participating in the case
+
+	Activity: 	Factor of 6 levels representing the Activity Labels:
+			WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
+			
+			
+	Rest of var: 	Mean of the diferent variables by Subject and Activity as requested. 
+			Columns 3 to 81 fall in these group
+			Type is numeric and range goes [+1, -1]
+
+
+########################################################
+#
+# Code Book for Program Assigment Tidy.txt outcome file
+#
+########################################################
+
 
