@@ -1,0 +1,6 @@
+# Code Book
+
+Subject: Subject of the observation
+Activity_Index: Index of the activity
+Rest of variables: Mean of the diferent variables by Subject and Activity as requested
+
